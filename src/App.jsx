@@ -7,7 +7,9 @@ function App() {
 
   const fetchJoke = async () => {
     try {
-      const response = await fetch("http://localhost:3000/v1/blagues/random");
+      const response = await fetch(
+        "https://carambar-api-mxil.onrender.com/v1/blagues/random"
+      );
       if (!response.ok) {
         throw new Error("Error");
       }
