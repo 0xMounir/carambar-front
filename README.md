@@ -1,8 +1,49 @@
-# React + Vite
+# 🎭 Carambar-Front - Blagues aléatoires
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une application web développée avec **React** (via **ViteJS**) et **TailwindCSS**.  
+Fonctionne avec une API qui renvoie des blagues Carambar.
 
-Currently, two official plugins are available:
+## 🚀 Technologies utilisées
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://react.dev/) (avec [ViteJS](https://vitejs.dev/))
+- [TailwindCSS](https://tailwindcss.com/)
+- [API Carambar](https://github.com/0xMounir/carambar-api)
+- [GitHub Pages](https://pages.github.com/) (hébergement)
+
+## 🌐 API Carambar
+
+L'application communique avec une API qui retourne des blagues Carambar.
+
+## 📖 Installation et démarrage en local
+
+### 1️⃣ Cloner le projet
+
+```bash
+git clone https://github.com/ton-utilisateur/carambar-front.git
+cd carambar-front
+```
+
+### 2️⃣ Installer les dépendances
+
+```bash
+npm install
+```
+
+### 3️⃣ Lancer le projet
+
+```bash
+npm run dev
+```
+
+### 4️⃣ Déployer sur GitHub Pages
+
+```bash
+npm run build
+npm run deploy
+```
+
+## 🎉 Aperçu
+
+➡️ https://0xmounir.github.io/carambar-front/
+
+## 🔗 [**Lien repo API**](https://github.com/0xMounir/carambar-api/)
